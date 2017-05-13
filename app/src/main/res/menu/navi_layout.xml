@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+      <group android:checkableBehavior="single">
+          <item android:id="@+id/navi_menu_home"
+          android:icon="@drawable/ic_home_white_24dp"
+          android:title="主页"/>
+
+          <item android:id="@+id/navi_menu_recommend"
+              android:icon="@drawable/ic_grade_white_24dp"
+              android:title="推荐"/>
+          <item android:id="@+id/navi_menu_theme"
+              android:icon="@drawable/ic_invert_colors_white_24dp"
+              android:title="皮肤"/>
+          <item android:id="@+id/navi_menu_setting"
+              android:icon="@drawable/ic_settings_white_24dp"
+              android:title="设置"/>
+
+          <item android:id="@+id/navi_menu_about"
+              android:icon="@drawable/ic_about_outline_white_24dp"
+              android:title="关于"/>
+
+      </group>
+</menu>

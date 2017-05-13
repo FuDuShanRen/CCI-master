@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CCI.iml" filepath="$PROJECT_DIR$/CCI.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/douyalibrary/douyalibrary.iml" filepath="$PROJECT_DIR$/douyalibrary/douyalibrary.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tab_film">
+    <item>院线热映</item>
+    <item>经典推荐</item>
+    </string-array>
+
+
+</resources>
