@@ -57,6 +57,8 @@ public class BookDetailActivity extends BaseActivity implements GetBookDetailVie
     RelativeLayout rlAuthor;
     @BindView(R.id.tv_chapters)
     TextView tvChapters;
+    @BindView(R.id.tv_title)
+    TextView tv_title;
 
     private Books books;
     private DouBanBookPresenter douBanBookPresenter;
@@ -64,7 +66,7 @@ public class BookDetailActivity extends BaseActivity implements GetBookDetailVie
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_film_detail);
+        setContentView(R.layout.activity_book_detail);
         ButterKnife.bind(this);
         initDatas();
     }
@@ -79,7 +81,7 @@ public class BookDetailActivity extends BaseActivity implements GetBookDetailVie
                 backActivity();
             }
         });
-        toolbar.setTitle("图书详情");
+
 
         Intent intent=getIntent();
         if(intent!=null){
@@ -128,6 +130,9 @@ public class BookDetailActivity extends BaseActivity implements GetBookDetailVie
         }
         if(!TextUtils.isEmpty(""+books.getRating().getNumRaters())){
             tvBookGradeNum.setText(books.getRating().getNumRaters()+"人评");
+        }
+        if(!TextUtils.isEmpty(books.getTitle())){
+            tv_title.setText(books.getTitle());
         }
 
     }
