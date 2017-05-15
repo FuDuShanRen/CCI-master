@@ -4,7 +4,9 @@ package tiancefu.com.cci.bean.music;
  * Created by dsblt on 2017/4/29.
  */
 
-public class MusicAuthor {
+public class Tags {
+    private int count;
+
     private String name;
 
     public String getName() {
@@ -13,5 +15,13 @@ public class MusicAuthor {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public int getCount() {
+        return count;
+    }
+
+    public void setCount(int count) {
+        this.count = count;
     }
 }

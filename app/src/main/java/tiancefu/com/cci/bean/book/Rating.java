@@ -6,7 +6,7 @@ import java.io.Serializable;
  * Created by dsblt on 2017/4/29.
  */
 
-public class BookRating implements Serializable{
+public class Rating implements Serializable{
 
     private int max;
 

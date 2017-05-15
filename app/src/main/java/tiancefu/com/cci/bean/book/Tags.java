@@ -6,7 +6,7 @@ import java.io.Serializable;
  * Created by dsblt on 2017/4/29.
  */
 
-public class BookTags implements Serializable{
+public class Tags implements Serializable{
      private int count;
 
      private String title;

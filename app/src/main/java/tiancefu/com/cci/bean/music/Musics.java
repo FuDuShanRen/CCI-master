@@ -8,19 +8,19 @@ import java.util.List;
  */
 
 public class Musics {
-    private MusicRating rating=new MusicRating();
+    private Rating rating=new Rating();
 
-    private List<MusicAuthor> author=new ArrayList<>() ;
+    private List<Author> author=new ArrayList<>() ;
 
     private String alt_title="";
 
     private String image="";
 
-    private List<MusicTags> tags =new ArrayList<>();
+    private List<Tags> tags =new ArrayList<>();
 
     private String mobile_link="";
 
-    private MusicAttrs attrs=new MusicAttrs();
+    private Attrs attrs=new Attrs();
 
     private String title="";
     private String summary="";
@@ -29,19 +29,19 @@ public class Musics {
 
     private String id;
 
-    public MusicRating getRating() {
+    public Rating getRating() {
         return rating;
     }
 
-    public void setRating(MusicRating rating) {
+    public void setRating(Rating rating) {
         this.rating = rating;
     }
 
-    public List<MusicAuthor> getAuthor() {
+    public List<Author> getAuthor() {
         return author;
     }
 
-    public void setAuthor(List<MusicAuthor> author) {
+    public void setAuthor(List<Author> author) {
         this.author = author;
     }
 
@@ -61,11 +61,11 @@ public class Musics {
         this.image = image;
     }
 
-    public List<MusicTags> getTags() {
+    public List<Tags> getTags() {
         return tags;
     }
 
-    public void setTags(List<MusicTags> tags) {
+    public void setTags(List<Tags> tags) {
         this.tags = tags;
     }
 
@@ -77,11 +77,11 @@ public class Musics {
         this.mobile_link = mobile_link;
     }
 
-    public MusicAttrs getAttrs() {
+    public Attrs getAttrs() {
         return attrs;
     }
 
-    public void setAttrs(MusicAttrs attrs) {
+    public void setAttrs(Attrs attrs) {
         this.attrs = attrs;
     }
 

@@ -10,7 +10,7 @@ import tiancefu.com.cci.bean.top250.Images;
  */
 
 public class Books implements Serializable{
-    private BookRating rating;//书籍评分
+    private Rating rating;//书籍评分
 
     private String subtitle;//
 
@@ -18,7 +18,7 @@ public class Books implements Serializable{
 
     private String pubdate;//出版日期
 
-    private List<BookTags> tags ;//查询的tag
+    private List<Tags> tags ;//查询的tag
 
     private String origin_title;//原名
 
@@ -54,15 +54,15 @@ public class Books implements Serializable{
 
     private String summary;//书籍简介
 
-    private BookSeries series;//书籍所属系列
+    private Series series;//书籍所属系列
 
     private String price;//书籍价格
 
-    public BookRating getRating() {
+    public Rating getRating() {
         return rating;
     }
 
-    public void setRating(BookRating rating) {
+    public void setRating(Rating rating) {
         this.rating = rating;
     }
 
@@ -90,11 +90,11 @@ public class Books implements Serializable{
         this.pubdate = pubdate;
     }
 
-    public List<BookTags> getTags() {
+    public List<Tags> getTags() {
         return tags;
     }
 
-    public void setTags(List<BookTags> tags) {
+    public void setTags(List<Tags> tags) {
         this.tags = tags;
     }
 
@@ -226,11 +226,11 @@ public class Books implements Serializable{
         this.summary = summary;
     }
 
-    public BookSeries getSeries() {
+    public Series getSeries() {
         return series;
     }
 
-    public void setSeries(BookSeries series) {
+    public void setSeries(Series series) {
         this.series = series;
     }
 

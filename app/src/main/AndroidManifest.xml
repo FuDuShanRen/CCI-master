@@ -28,6 +28,7 @@
 
         <activity android:name=".activity_fragment.FilmDetailActivity"></activity>
         <activity android:name=".activity_fragment.WebviewActivity"></activity>
+        <activity android:name=".activity_fragment.BookDetailActivity"></activity>
     </application>
 
 </manifest>

@@ -49,7 +49,7 @@ public class MainActivity extends BaseActivity implements GetTop250View {
 
     private  FilmFragment filmFrament;
     Fragment musicFragment;
-    Fragment bookFrament;
+    BookFragment bookFrament;
     Fragment newsFragment;
     private List<Fragment> listFragment;
 
@@ -88,8 +88,10 @@ public class MainActivity extends BaseActivity implements GetTop250View {
 
     private void initViewpagerAndFragment(){
         filmFrament=FilmFragment.newInstance();
+        bookFrament=BookFragment.newInstance();
         listFragment=new ArrayList<>();
         listFragment.add(filmFrament);
+        listFragment.add(bookFrament);
         viewPager.setOffscreenPageLimit(3);
         viewPager.setOnPageChangeListener(opcListener);
 

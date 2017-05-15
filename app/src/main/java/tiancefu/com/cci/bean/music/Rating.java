@@ -4,7 +4,7 @@ package tiancefu.com.cci.bean.music;
  * Created by dsblt on 2017/4/29.
  */
 
-public class MusicRating {
+public class Rating {
     private int max;
 
     private int numRaters;//评分人数

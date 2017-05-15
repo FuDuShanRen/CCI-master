@@ -6,7 +6,7 @@ import java.util.List;
  * Created by dsblt on 2017/4/29.
  */
 
-public class MusicAttrs {
+public class Attrs {
 
     private List<String> publisher;
 
